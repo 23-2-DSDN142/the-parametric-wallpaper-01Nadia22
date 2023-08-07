@@ -1,0 +1,662 @@
+/////////////////////////////////
+
+//Wallpaper 1:
+
+//your parameter variables go here!
+//var catcolor1 = color(245, 231, 215);
+//var catcolor2 = color(214, 171, 122);
+//var catcolor3 = color(76, 32 , 50);
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+
+  pWallpaper.resolution(NINE_LANDSCAPE);
+
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 350;
+  pWallpaper.grid_settings.cell_height = 250;
+  pWallpaper.grid_settings.row_offset  = 150;
+}
+
+function wallpaper_background() {
+  background(24, 59, 61);
+}
+
+function my_symbol() {
+
+  var catcolor1 = color(245, 231, 215);
+  var catcolor2 = color(214, 171, 122);
+  var catcolor3 = color(76, 32 , 50);
+
+   fill(catcolor1)
+   triangle(200, 260, 350, 160, 200, 80);
+   triangle(600, 260, 450, 160, 600, 80);
+   triangle(220, 260, 320, 170, 230, 130);
+   triangle(580, 260, 460, 170, 570, 130);
+   ellipse(400, 350,450, 400);
+   fill(catcolor2)
+   ellipse(500, 300,200, 220);
+
+   fill(catcolor3)
+   ellipse(400, 380,100, 50);
+   ellipse(300, 300,20, 50);
+   ellipse(490, 300,20, 50);
+
+   line(250, 370, 100, 350);
+   line(250, 400, 100, 400);
+   line(250, 430, 100, 450);
+   line(530, 370, 680, 350);
+   line(530, 400, 680, 400);
+   line(530, 430, 680, 450);
+  
+}
+
+/////////////////////////////////
+
+//Wallpaper 2:
+
+//your parameter variables go here!
+
+//var catcolor1 = color(245, 231, 215);
+//var catcolor2 = color(214, 171, 122);
+//var catcolor3 = color(76, 32 , 50);
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+
+  pWallpaper.resolution(NINE_LANDSCAPE);
+
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 600;
+  pWallpaper.grid_settings.cell_height = 500;
+  pWallpaper.grid_settings.row_offset  = 300;
+}
+
+function wallpaper_background() {
+  background(24, 59, 61);
+}
+
+function my_symbol() {
+
+  var catcolor1 = color(245, 231, 215);
+  var catcolor2 = color(214, 171, 122);
+  var catcolor3 = color(76, 32 , 50);
+
+   fill(catcolor1)
+   triangle(200, 260, 350, 160, 200, 80);
+   triangle(600, 260, 450, 160, 600, 80);
+   triangle(220, 260, 320, 170, 230, 130);
+   triangle(580, 260, 460, 170, 570, 130);
+   ellipse(400, 350,450, 400);
+   fill(catcolor2)
+   ellipse(500, 300,200, 220);
+
+   fill(catcolor3)
+   ellipse(400, 380,100, 50);
+   ellipse(300, 300,20, 50);
+   ellipse(490, 300,20, 50);
+
+   line(250, 370, 100, 350);
+   line(250, 400, 100, 400);
+   line(250, 430, 100, 450);
+   line(530, 370, 680, 350);
+   line(530, 400, 680, 400);
+   line(530, 430, 680, 450);
+  
+}
+
+/////////////////////////////////
+
+//Wallpaper 3:
+
+//your parameter variables go here!
+var size = 100
+//var strokecolor = color(255, 255, 255)
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+
+  pWallpaper.resolution(NINE_LANDSCAPE);
+
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 300;
+  pWallpaper.grid_settings.cell_height = 300;
+  pWallpaper.grid_settings.row_offset  = 150;
+}
+
+function wallpaper_background() {
+  background(212, 184, 255);
+}
+
+function my_symbol() {
+  var strokecolor = color(255, 255, 255)
+
+   let size = 100;
+  if (size < 100) {
+    noFill();
+    strokeWeight(4);
+    stroke(strokecolor);
+  } else {
+    noFill();
+    strokeWeight(4);
+    stroke(strokecolor);
+    circle(180, 250, size-70);
+  }
+  
+  noFill();
+  strokeWeight(4);
+  stroke(strokecolor);
+  rect(20, 20, size, size);
+
+  circle(120, 150, size);
+
+  circle(120, 20, size-50);
+
+  quad(200, 220, 300, 220, 240, 300, 140, 300);
+
+  rect(25, 240, size, size, 20);
+
+  triangle(130, 175, 208, 70, 286, 175);
+
+  bezier(85, 150, 10, 140, 90, 230, 15, 210);
+
+  line(200, 50, 240, 50);
+  line(240, 50, 240, 90);
+  line(280, 90, 240, 90);
+  line(280, 90, 280, 130);
+
+  circle(200, 200, size-80);
+  circle(250, 200, size-80);
+
+line(150,230,170,210)
+}
+
+/////////////////////////////////
+
+//Wallpaper 4:
+
+//your parameter variables go here!
+var size = 100
+var strokeWeight = 7
+//var rectcolor1 = color(255, 234, 77)
+//var circlecolor1 = color(77, 255, 98)
+//var circlecolor2 = color(255, 160, 77)
+//var circlecolor3 = color(77, 255, 243)
+//var quadcolor = color(255, 101, 78)
+//var rectcolor2 = color(77, 163, 255)
+//var trianglecolor = color(145, 77, 255)
+//var beziercolor = color(240, 77, 255)
+//var linecolor1 = color(255, 77, 122)
+//var linecolor2 = color(231, 255, 77)
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+
+  pWallpaper.resolution(NINE_LANDSCAPE);
+
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 290;
+  pWallpaper.grid_settings.cell_height = 300;
+  pWallpaper.grid_settings.row_offset  = 150;
+}
+
+function wallpaper_background() {
+  background(247, 252, 240);
+}
+
+function my_symbol() {
+
+  var rectcolor1 = color(255, 234, 77)
+  var circlecolor1 = color(77, 255, 98)
+  var circlecolor2 = color(255, 160, 77)
+  var circlecolor3 = color(77, 255, 243)
+  var quadcolor = color(255, 101, 78)
+  var rectcolor2 = color(77, 163, 255)
+  var trianglecolor = color(145, 77, 255)
+  var beziercolor = color(240, 77, 255)
+  var linecolor1 = color(255, 77, 122)
+  var linecolor2 = color(231, 255, 77)
+
+  if (size < 100) {
+    stroke(beziercolor);
+  } else {
+    stroke(beziercolor)
+    fill(beziercolor)
+    circle(180, 250, size-70);
+  }
+
+  noFill();
+  strokeWeight(strokeWeight);
+  stroke(rectcolor1);
+  fill(rectcolor1)
+  rect(20, 20, size, size);
+
+  fill(circlecolor1)
+  stroke(circlecolor1);
+  circle(120, 150, size);
+
+  fill(circlecolor2)
+  stroke(circlecolor2);
+  circle(120, 20, size-50);
+
+  fill(quadcolor)
+  stroke(quadcolor);
+  quad(200, 220, 300, 220, 240, 300, 140, 300);
+
+  fill(rectcolor2)
+  stroke(rectcolor2);
+  rect(25, 240, size, size, 20);
+
+  fill(trianglecolor)
+  stroke(trianglecolor);
+  triangle(130, 175, 208, 70, 286, 175);
+
+  noFill()
+  stroke(beziercolor);
+  bezier(85, 150, 10, 140, 90, 230, 15, 210);
+
+  stroke(linecolor1);
+  line(200, 50, 240, 50);
+  line(240, 50, 240, 90);
+  line(280, 90, 240, 90);
+  line(280, 90, 280, 130);
+
+  stroke(circlecolor3);
+  fill(circlecolor3)
+  circle(200, 200, size-80);
+  circle(250, 200, size-80);
+
+  stroke(linecolor2);
+  line(150,230,170,210);
+
+}
+
+/////////////////////////////////
+
+//Wallpaper 5:
+
+//your parameter variables go here!
+var size =40
+//var colorA = color(222, 44, 101,15)
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+
+  pWallpaper.resolution(NINE_LANDSCAPE);
+
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 250;
+  pWallpaper.grid_settings.cell_height = 250;
+  pWallpaper.grid_settings.row_offset  = 125;
+}
+
+function wallpaper_background() {
+  background(255, 248, 232);
+}
+
+function my_symbol() {
+  var colorA = color(222, 44, 101,15)
+
+  let size = 40;
+if (size > 40) {
+  color(199, 78, 124);
+} else {
+  color(181, 49, 99)
+}
+
+
+  noStroke()
+  fill(colorA)
+  circle(30, 30, size);
+  circle(30, 30, size+20); 
+  circle(30, 30, size+40);
+  circle(30, 30, size+60);
+  circle(30, 30, size+80);
+  circle(30, 30, size+100);
+  circle(30, 30, size+120); 
+  circle(30, 30, size+140);
+  circle(30, 30, size+160);
+  circle(30, 30, size+180);
+  circle(30, 30, size+200);
+
+}
+
+/////////////////////////////////
+
+//Wallpaper 6:
+
+//your parameter variables go here!
+var size =40
+//var colorB = color(222, 44, 101,50)
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+
+  pWallpaper.resolution(NINE_LANDSCAPE);
+
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 250;
+  pWallpaper.grid_settings.cell_height = 250;
+  pWallpaper.grid_settings.row_offset  = 125;
+}
+
+function wallpaper_background() {
+  background(255, 247, 250);
+}
+
+function my_symbol() {
+  var colorB = color(222, 44, 101,50)
+
+  let size = 40;
+  if (size > 40) {
+    color(199, 78, 124);
+  } else {
+    color(181, 49, 99)
+  }
+  
+  noStroke()
+  fill(colorB)
+  circle(30, 60, size);
+  circle(80, 100, size+20); 
+  circle(310, 330, size+40);
+  circle(130, 30, size+60);
+  circle(190, 250, size+80);
+  circle(0, 300, size+100);
+  circle(90, 170, size+120); 
+  circle(10, 80, size+140);
+  circle(70, 250, size+160);
+  circle(160, 110, size+180);
+  circle(210, 190, size+200);
+
+}
+
+/////////////////////////////////
+
+//Wallpaper 7:
+
+//your parameter variables go here!
+var petalsize1 = 50;
+var petalsize2 = 9;
+var petal1y = 70;
+var petal1x = 50;
+var Flowercoresize = 30;
+//var flowercolorA = color(252, 223, 104);//yellow
+//var flowercolorB = color(193, 104, 252);//purple
+//var flowercolorC = color(252, 104, 143);//pink
+//var flowercolorD = color(255, 171, 82);//orange
+//var Flowercorecolor = color(252, 250, 235);
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+
+  pWallpaper.resolution(NINE_LANDSCAPE);
+
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 330;
+  pWallpaper.grid_settings.cell_height = 250;
+  pWallpaper.grid_settings.row_offset  = 150;
+}
+
+function wallpaper_background() {
+  background(255, 248, 232);
+}
+
+function my_symbol() {
+  var flowercolorA = color(252, 223, 104);//yellow
+  var flowercolorB = color(193, 104, 252);//purple
+  var flowercolorC = color(252, 104, 143);//pink
+  var flowercolorD = color(255, 171, 82);//orange
+  var Flowercorecolor = color(252, 250, 235);
+
+  let petal1x = 50;
+if (petal1x > 50) {
+  noStroke();
+  fill(flowercolorD)
+  circle(petal1x+312, petal1y+74, Flowercoresize+10);
+} else {
+  noStroke();
+  fill(flowercolorD)
+  circle(petal1x-12, petal1y-104, Flowercoresize+10);
+}
+
+  strokeWeight(2)//leaf
+  stroke(flowercolorC);
+  fill(270, 260, 240)
+  curve(115, 226, 103, 74, 193, 51, 205, 265);
+  curve(115, -126, 103, 74, 193, 51, 205, -165);
+  curve(-5, -26, 103, 74, 193, 51, 195, 105);
+  line(150,40,140,71);
+  line(140,43,130,74);
+  line(170,38,160,63);
+
+  line(220,180,40,400);//flower stem
+  line(210,180,30,400);
+
+  noStroke();
+  fill(flowercolorD)
+  circle(petal1x+312, petal1y+74, Flowercoresize+10);
+
+  fill(flowercolorA);
+  noStroke();
+  circle(petal1x, petal1y, petalsize1);//Petal
+  circle(petal1x+20, petal1y-20, petalsize1);//Peta2
+  circle(petal1x+42, petal1y-5, petalsize1);//Peta3
+  circle(petal1x+37, petal1y+21, petalsize1);//Peta4
+  circle(petal1x+10, petal1y+23, petalsize1);//Peta5
+  fill(Flowercorecolor);
+  circle(petal1x+22, petal1y+4, Flowercoresize);//cores
+
+  fill(flowercolorB);
+  noStroke();
+  circle(petal1x+160, petal1y+100, petalsize1);//Petal
+  circle(petal1x+180, petal1y+80, petalsize1);//Peta2
+  circle(petal1x+202, petal1y+95, petalsize1);//Peta3
+  circle(petal1x+197, petal1y+121, petalsize1);//Peta4
+  circle(petal1x+170, petal1y+123, petalsize1);//Peta5
+  fill(Flowercorecolor);
+  circle(petal1x+182, petal1y+104, Flowercoresize);//cores
+
+}
+
+/////////////////////////////////
+
+//Wallpaper 8:
+
+//your parameter variables go here!
+var petalsize1 = 50;
+var petalsize2 = 9;
+var petal1y=70
+var petal1x=50
+var Flowercoresize = 30
+//var flowercolorA = color(252, 223, 104);//yellow
+//var flowercolorB = color(193, 104, 252);//purple
+//var flowercolorC = color(252, 104, 143);//pink
+//var flowercolorD = color(255, 171, 82);//orange
+//var Flowercorecolor = color(252, 250, 235);
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+
+  pWallpaper.resolution(NINE_LANDSCAPE);
+
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 250;
+  pWallpaper.grid_settings.cell_height = 292;
+  pWallpaper.grid_settings.row_offset  = 175;
+}
+
+function wallpaper_background() {
+  background(255, 248, 232);
+}
+
+function my_symbol() {
+  var flowercolorA = color(252, 223, 104);//yellow
+  var flowercolorB = color(193, 104, 252);//purple
+  var flowercolorC = color(252, 104, 143);//pink
+  var flowercolorD = color(255, 171, 82);//orange
+  var Flowercorecolor = color(252, 250, 235);
+ 
+  let petal1x = 50;
+if (petal1x > 50) {
+  noStroke();
+  fill(flowercolorD)
+  circle(petal1x+312, petal1y+74, Flowercoresize+10);
+} else {
+  noStroke();
+  fill(flowercolorD)
+  circle(petal1x+152, petal1y+214, Flowercoresize-10);
+}
+
+
+
+  strokeWeight(2)//leaf
+  stroke(flowercolorC);
+  fill(255, 248, 232)
+  curve(115, 226, 103, 74, 193, 51, 205, 265);
+  curve(115, -126, 103, 74, 193, 51, 205, -165);
+  curve(-5, -26, 103, 74, 193, 51, 195, 105);
+  line(150,40,140,71);
+  line(140,43,130,74);
+  line(170,38,160,63);
+
+  strokeWeight(2)//leaf
+  stroke(flowercolorC);
+  fill(255, 248, 232)
+  curve(175, 526, 153, 234, 53, 201, -95, 195);
+  curve(15, -76, 153, 234, 53, 201, 105, -155);
+  curve(15, 26, 153, 234, 53, 201, 105, 105);
+  line(92,201,100,232);
+  line(116,201,126,242);
+  line(84,201,92,229);
+
+  fill(flowercolorA);
+  noStroke();
+  circle(petal1x, petal1y, petalsize1);//Petal
+  circle(petal1x+20, petal1y-20, petalsize1);//Peta2
+  circle(petal1x+42, petal1y-5, petalsize1);//Peta3
+  circle(petal1x+37, petal1y+21, petalsize1);//Peta4
+  circle(petal1x+10, petal1y+23, petalsize1);//Peta5
+  fill(Flowercorecolor);
+  circle(petal1x+22, petal1y+4, Flowercoresize);//cores
+
+  fill(flowercolorB);
+  noStroke();
+  circle(petal1x+160, petal1y+100, petalsize1);//Petal
+  circle(petal1x+180, petal1y+80, petalsize1);//Peta2
+  circle(petal1x+202, petal1y+95, petalsize1);//Peta3
+  circle(petal1x+197, petal1y+121, petalsize1);//Peta4
+  circle(petal1x+170, petal1y+123, petalsize1);//Peta5
+  fill(Flowercorecolor);
+  circle(petal1x+182, petal1y+104, Flowercoresize);//cores
+ 
+}
+
+/////////////////////////////////
+
+//Wallpaper 9:
+
+//your parameter variables go here!
+var petalsize1 = 50;
+var petalsize2 = 9;
+var petal1y=70
+var petal1x=50
+var Flowercoresize = 30
+//var flowercolorA = color(252, 223, 104);//yellow
+//var flowercolorB = color(193, 104, 252);//purple
+//var flowercolorC = color(252, 104, 143);//pink
+//var flowercolorD = color(255, 171, 82,15);//orange
+//var Flowercorecolor = color(252, 250, 235,150);
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(DEVELOP_GLYPH);
+
+  pWallpaper.resolution(FIT_TO_SCREEN);
+
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 320;
+  pWallpaper.grid_settings.cell_height = 300;
+  pWallpaper.grid_settings.row_offset  = 160;
+}
+
+function wallpaper_background() {
+  background(255, 248, 232);
+}
+
+function my_symbol() {
+  var flowercolorA = color(252, 223, 104,150);//yellow
+  var flowercolorB = color(193, 104, 252,150);//purple
+  var flowercolorC = color(252, 104, 143,120);//pink
+  var flowercolorD = color(255, 171, 82,15);//orange
+  var Flowercorecolor = color(252, 250, 235,150);
+ 
+  let petal1x = 50;
+if (petal1x > 50) {
+  noStroke();
+  fill(flowercolorD)
+  circle(petal1x+312, petal1y+74, Flowercoresize+10);
+} else {
+  noStroke();
+  fill(flowercolorD)
+  circle(petal1x+152, petal1y+214, Flowercoresize+200);
+}
+
+  strokeWeight(2)//high leaf
+  stroke(flowercolorC);
+  fill(255, 248, 232)
+  curve(115, 226, 103, 74, 193, 51, 205, 265);
+  curve(115, -126, 103, 74, 193, 51, 205, -165);
+  curve(-5, -26, 103, 74, 193, 51, 195, 105);
+  line(150,40,140,71);
+  line(140,43,130,74);
+  line(170,38,160,63);
+
+  strokeWeight(2)//low leaf
+  stroke(flowercolorC);
+  fill(255, 248, 232)
+  curve(175, 526, 153, 234, 53, 201, -95, 195);
+  curve(15, -76, 153, 234, 53, 201, 105, -155);
+  curve(15, 26, 153, 234, 53, 201, 105, 105);
+  line(92,201,100,232);
+  line(116,201,126,242);
+  line(84,201,92,229);
+
+  fill(flowercolorA);//yellow flower
+  noStroke();
+  circle(petal1x, petal1y, petalsize1);//Petal
+  circle(petal1x+20, petal1y-20, petalsize1);//Peta2
+  circle(petal1x+42, petal1y-5, petalsize1);//Peta3
+  circle(petal1x+37, petal1y+21, petalsize1);//Peta4
+  circle(petal1x+10, petal1y+23, petalsize1);//Peta5
+  fill(Flowercorecolor);
+  circle(petal1x+22, petal1y+4, Flowercoresize);//cores
+
+  fill(flowercolorB);//purple flower
+  noStroke();
+  circle(petal1x+160, petal1y+100, petalsize1);//Petal
+  circle(petal1x+180, petal1y+80, petalsize1);//Peta2
+  circle(petal1x+202, petal1y+95, petalsize1);//Peta3
+  circle(petal1x+197, petal1y+121, petalsize1);//Peta4
+  circle(petal1x+170, petal1y+123, petalsize1);//Peta5
+  fill(Flowercorecolor);
+  circle(petal1x+182, petal1y+104, Flowercoresize);//cores
+ 
+}
